@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A57DF250-8825-3C35-AE9C-B28CEB869AF9}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\AntTweakBar-1.16\include;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\glfw-3.1.2\include;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\glm-0.9.7.1;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\glew-1.13.0\include;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\assimp-3.0.1270\include;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\bullet-2.81-rev2613\src;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\AntTweakBar-1.16\include;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\glfw-3.1.2\include;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\glm-0.9.7.1;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\glew-1.13.0\include;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\assimp-3.0.1270\include;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\bullet-2.81-rev2613\src;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\AntTweakBar-1.16\include;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\glfw-3.1.2\include;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\glm-0.9.7.1;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\glew-1.13.0\include;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\assimp-3.0.1270\include;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\bullet-2.81-rev2613\src;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\AntTweakBar-1.16\include;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\glfw-3.1.2\include;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\glm-0.9.7.1;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\glew-1.13.0\include;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\assimp-3.0.1270\include;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\bullet-2.81-rev2613\src;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GAMAGORA\Cours Synthèse Guillaume\ogl\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/GAMAGORA/Cours Synthèse Guillaume/ogl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/GAMAGORA/Cours Synthèse Guillaume/ogl" "-BD:/GAMAGORA/Cours Synthèse Guillaume/OpenGL" --check-stamp-file "D:/GAMAGORA/Cours Synthèse Guillaume/OpenGL/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\3.19.3\CMakeCCompiler.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\3.19.3\CMakeCXXCompiler.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\3.19.3\CMakeRCCompiler.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\3.19.3\CMakeSystem.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/GAMAGORA/Cours Synthèse Guillaume/ogl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/GAMAGORA/Cours Synthèse Guillaume/ogl" "-BD:/GAMAGORA/Cours Synthèse Guillaume/OpenGL" --check-stamp-file "D:/GAMAGORA/Cours Synthèse Guillaume/OpenGL/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\3.19.3\CMakeCCompiler.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\3.19.3\CMakeCXXCompiler.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\3.19.3\CMakeRCCompiler.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\3.19.3\CMakeSystem.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/GAMAGORA/Cours Synthèse Guillaume/ogl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/GAMAGORA/Cours Synthèse Guillaume/ogl" "-BD:/GAMAGORA/Cours Synthèse Guillaume/OpenGL" --check-stamp-file "D:/GAMAGORA/Cours Synthèse Guillaume/OpenGL/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\3.19.3\CMakeCCompiler.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\3.19.3\CMakeCXXCompiler.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\3.19.3\CMakeRCCompiler.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\3.19.3\CMakeSystem.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/GAMAGORA/Cours Synthèse Guillaume/ogl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/GAMAGORA/Cours Synthèse Guillaume/ogl" "-BD:/GAMAGORA/Cours Synthèse Guillaume/OpenGL" --check-stamp-file "D:/GAMAGORA/Cours Synthèse Guillaume/OpenGL/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\3.19.3\CMakeCCompiler.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\3.19.3\CMakeCXXCompiler.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\3.19.3\CMakeRCCompiler.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\3.19.3\CMakeSystem.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;D:\GAMAGORA\Cours Synthèse Guillaume\ogl\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\ZERO_CHECK.vcxproj">
+      <Project>{BB71B54C-3410-33F8-9E5D-BE3BD8775158}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj">
+      <Project>{128C9C98-B3CF-3253-9EF2-262E90722CB6}</Project>
+      <Name>ANTTWEAKBAR_116_OGLCORE_GLFW</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\bullet-2.81-rev2613\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{48ECA494-3F1A-30AD-8944-8CA5D2D33DFB}</Project>
+      <Name>BulletCollision</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\bullet-2.81-rev2613\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{68828E58-9574-3C28-AB23-4A3BBAF78232}</Project>
+      <Name>BulletDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\bullet-2.81-rev2613\src\BulletSoftBody\BulletSoftBody.vcxproj">
+      <Project>{F33459C8-6F5E-3DC7-86DC-8B5157C6504A}</Project>
+      <Name>BulletSoftBody</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\GLEW_1130.vcxproj">
+      <Project>{1AB672C5-3106-3802-9E3C-E81F5A0552EE}</Project>
+      <Name>GLEW_1130</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\bullet-2.81-rev2613\src\LinearMath\LinearMath.vcxproj">
+      <Project>{1A50B7BC-E8E0-36FC-A609-96F7B431F29D}</Project>
+      <Name>LinearMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\assimp-3.0.1270\code\assimp.vcxproj">
+      <Project>{E3D2F1D1-E064-3371-B7FB-726409CD1108}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\examples\boing.vcxproj">
+      <Project>{441AF696-2E15-3D36-AB2D-DDA29696B852}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\tests\clipboard.vcxproj">
+      <Project>{422CDE67-7307-35DE-B6DE-7A01BDB3894C}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\tests\cursor.vcxproj">
+      <Project>{7C8D7FB3-85DA-3C46-92AD-2AEB8B58FE59}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\tests\empty.vcxproj">
+      <Project>{BBEF4C81-0086-3593-B01E-81BA3E413057}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\tests\events.vcxproj">
+      <Project>{B8F5AAA1-9BF3-376F-81E4-0A74513D345C}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\tests\gamma.vcxproj">
+      <Project>{67D4F72A-1C0D-3B44-AC94-7FCA7B59ED2B}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\examples\gears.vcxproj">
+      <Project>{60728C0C-5D98-3B78-9EC1-3BF40468A1F5}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\src\glfw.vcxproj">
+      <Project>{2A5ED570-84AD-384D-ADCA-3D05F5AAB83E}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\tests\glfwinfo.vcxproj">
+      <Project>{48E4DBC0-A39E-3EF3-A62F-D40C12E88C2F}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\examples\heightmap.vcxproj">
+      <Project>{CA9A83AA-2211-357B-B8D0-B3026A34E09A}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\tests\iconify.vcxproj">
+      <Project>{D26D202D-76DF-3E27-ADAE-6C3C4C11B69D}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\tests\joysticks.vcxproj">
+      <Project>{754214E7-FB4E-360C-9141-57EAE4F5CB40}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\misc05_picking_BulletPhysics.vcxproj">
+      <Project>{CE319CF2-3814-39B8-9CA8-61794FE40B0E}</Project>
+      <Name>misc05_picking_BulletPhysics</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\misc05_picking_custom.vcxproj">
+      <Project>{D7E3DCCC-0558-360B-A40B-B7E7BEA01AEC}</Project>
+      <Name>misc05_picking_custom</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\misc05_picking_slow_easy.vcxproj">
+      <Project>{2A93219D-2B5A-3C86-9502-5C7251FE14E1}</Project>
+      <Name>misc05_picking_slow_easy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\tests\monitors.vcxproj">
+      <Project>{00696120-DC8D-3AC7-9F88-7E495416E5DA}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\tests\msaa.vcxproj">
+      <Project>{7241C1C8-46D9-3C19-857A-13329C07ED19}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\examples\particles.vcxproj">
+      <Project>{968DDDD4-F5CE-353E-9D32-7C33FE398DB9}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\playground.vcxproj">
+      <Project>{598BC799-CFAF-3EC3-AF1E-3F1211CD57D5}</Project>
+      <Name>playground</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\tests\reopen.vcxproj">
+      <Project>{56DAE3B8-F7DC-3279-9F64-E19C1CA063D0}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\tests\sharing.vcxproj">
+      <Project>{8CD77649-9607-3391-A0D6-4BE175053231}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\examples\simple.vcxproj">
+      <Project>{A7EDE9EB-880B-301E-B552-AF00919676F5}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\examples\splitview.vcxproj">
+      <Project>{0CA538D5-2B1D-30F5-937D-DA3DD854CBF3}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\tests\tearing.vcxproj">
+      <Project>{25B2EB30-455D-335E-A34F-39BBD45D6256}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\tests\threads.vcxproj">
+      <Project>{F4B1E83F-A0B0-3806-B1D5-6E27AD990CD1}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\tests\title.vcxproj">
+      <Project>{A2824DB6-6410-328E-BA99-1A13EB0FC31D}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial01_first_window.vcxproj">
+      <Project>{1F73762A-CB07-362F-986A-610F12292C9B}</Project>
+      <Name>tutorial01_first_window</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial02_red_triangle.vcxproj">
+      <Project>{1961E472-56D6-3B91-8BB2-B5E20723E4FF}</Project>
+      <Name>tutorial02_red_triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial03_matrices.vcxproj">
+      <Project>{E34B11A3-5B49-3C7D-B15A-5166066D9B1D}</Project>
+      <Name>tutorial03_matrices</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial04_colored_cube.vcxproj">
+      <Project>{60D87144-6F8E-3F86-89F6-EAB0B2921237}</Project>
+      <Name>tutorial04_colored_cube</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial05_textured_cube.vcxproj">
+      <Project>{8FC23786-6374-3334-B7FC-2912340F0ED3}</Project>
+      <Name>tutorial05_textured_cube</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial06_keyboard_and_mouse.vcxproj">
+      <Project>{8306A101-3998-3DA5-953B-883C12E3FC22}</Project>
+      <Name>tutorial06_keyboard_and_mouse</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial07_model_loading.vcxproj">
+      <Project>{08DB75AC-A9FB-311F-9E13-98ADBB2284C1}</Project>
+      <Name>tutorial07_model_loading</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial08_basic_shading.vcxproj">
+      <Project>{38A7E439-4A1F-30FE-8F6A-BA9C10830BA6}</Project>
+      <Name>tutorial08_basic_shading</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial09_AssImp.vcxproj">
+      <Project>{BC1B8A33-048A-341D-BF0C-934EB81CACBF}</Project>
+      <Name>tutorial09_AssImp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial09_several_objects.vcxproj">
+      <Project>{9A7C2F81-579D-3B73-ACFD-300D7B444688}</Project>
+      <Name>tutorial09_several_objects</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial09_vbo_indexing.vcxproj">
+      <Project>{86E81EEB-300C-3A6E-A05A-EF5A5B591E67}</Project>
+      <Name>tutorial09_vbo_indexing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial10_transparency.vcxproj">
+      <Project>{626BA2F5-5596-31C7-88F0-BA2FFC7B79E0}</Project>
+      <Name>tutorial10_transparency</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial11_2d_fonts.vcxproj">
+      <Project>{2DB28A92-6A11-39EF-B749-922BB6936553}</Project>
+      <Name>tutorial11_2d_fonts</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial12_extensions.vcxproj">
+      <Project>{6A54126B-1F0B-3D30-BD56-3DAFC9F9184C}</Project>
+      <Name>tutorial12_extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial13_normal_mapping.vcxproj">
+      <Project>{4944FAD1-DCEB-3D7E-8EF5-D1B9C8795627}</Project>
+      <Name>tutorial13_normal_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial14_render_to_texture.vcxproj">
+      <Project>{528E223B-4541-355C-8DE1-042B068C24C9}</Project>
+      <Name>tutorial14_render_to_texture</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial15_lightmaps.vcxproj">
+      <Project>{5A96829D-6000-3FEA-9BA3-2FCD21225AAB}</Project>
+      <Name>tutorial15_lightmaps</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial16_shadowmaps.vcxproj">
+      <Project>{9A13CB74-9528-38CB-82FE-A7930C91D7F6}</Project>
+      <Name>tutorial16_shadowmaps</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial16_shadowmaps_simple.vcxproj">
+      <Project>{345BBEA7-28F9-3F7E-8938-86917AC6D0DD}</Project>
+      <Name>tutorial16_shadowmaps_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial17_rotations.vcxproj">
+      <Project>{F7A9D62A-5726-38EF-93D3-CBE07E3E3A77}</Project>
+      <Name>tutorial17_rotations</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial18_billboards.vcxproj">
+      <Project>{68A56633-6375-31E4-BAA8-F841BA789029}</Project>
+      <Name>tutorial18_billboards</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\tutorial18_particles.vcxproj">
+      <Project>{C01747C9-BE53-3026-B846-913109710626}</Project>
+      <Name>tutorial18_particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\examples\wave.vcxproj">
+      <Project>{13E8E0B0-D818-362C-830C-F7326019CC93}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\glfw-3.1.2\tests\windows.vcxproj">
+      <Project>{B78DD504-749A-3302-9AC2-1247CA2BC57B}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\external\assimp-3.0.1270\contrib\zlib\zlib.vcxproj">
+      <Project>{BBE8C797-B6F5-35F0-9018-85912F832EFC}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

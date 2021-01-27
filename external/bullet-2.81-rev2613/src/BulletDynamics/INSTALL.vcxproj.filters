@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\GAMAGORA\Cours Synthèse Guillaume\OpenGL\CMakeFiles\9432f8f54b869348764ae0e1c7458ad2\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7396B6F3-9CF5-3185-A7D8-C66EDDD778F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
